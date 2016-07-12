@@ -1,0 +1,10 @@
+﻿CREATE TABLE [dbo].Employee
+(
+	EmployeeID INT IDENTITY NOT NULL,
+	Name NVARCHAR(50),
+	Age INT,
+	State NVARCHAR(50),
+	Country NVARCHAR(50),
+	CONSTRAINT PK_Employee PRIMARY KEY (EmployeeID)
+)
+GO
